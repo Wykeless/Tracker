@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/imageOptionDialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottom_sheet_bg"
+    android:orientation="vertical"
+    android:gravity="top|center"
+    tools:context=".EditCollection">
+
+    <!-- Pop up bottom sheet with options on it -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/imageOptionsPanel"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        tools:ignore="SpUsage"/>
+
+    <Button
+        android:id="@+id/btn_add_a_url"
+        android:layout_width="360dp"
+        android:layout_height="45dp"
+        android:textAllCaps="false"
+        android:textSize="17dp"
+        android:background="@drawable/button_shape"
+        android:text="@string/addImageUrl"
+        app:backgroundTint="@null"
+        android:textColor="@color/white"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="12.5dp"
+        tools:ignore="SpUsage"/>
+
+    <Button
+        android:id="@+id/btn_open"
+        android:layout_width="360dp"
+        android:layout_height="45dp"
+        android:textAllCaps="false"
+        android:textSize="17dp"
+        android:background="@drawable/button_shape"
+        android:text="@string/camera_Gallery"
+        app:backgroundTint="@null"
+        android:textColor="@color/white"
+        android:layout_marginTop="12.5dp"
+        android:layout_marginBottom="25dp"
+        tools:ignore="SpUsage" />
+
+</LinearLayout>
